@@ -756,4 +756,61 @@
     font-family:  sans-serif;
     background-image: linear-gradient(to right, white, rgba(0, 0, 139, 0.37));
   }
-  
+.line {
+  height: 5px;
+  width: 100%;
+  background-color: blue;
+}
+.image1 {
+  background-image: url(https://i.pinimg.com/originals/ff/53/09/ff53093e781b50b947ea041f8700b818.jpg);
+  background-size: cover;
+  color: white;
+}
+#description-car {
+  margin-top: 30%;
+  padding-bottom: 5%;
+}
+.image2 {
+  background-image: url(https://www.wsupercars.com/wallpapers/Porsche/2020-Porsche-Taycan-005-1080.jpg);
+  background-size: cover;
+  color: white;
+}
+.image3 {
+  background-image: url(https://wallpaperset.com/w/full/0/b/5/158942.jpg);
+  background-size: cover;
+  color: white;
+}
+.image4 {
+  background-image: url(https://www.wsupercars.com/wallpapers/Porsche/2018-Porsche-Panamera-Turbo-S-E-Hybrid-002-1080.jpg); background-image: url(https://i.pinimg.com/originals/ff/53/09/ff53093e781b50b947ea041f8700b818.jpg);
+  background-size: cover;
+  color: white;
+}
+.submit {
+  margin-top: 25px;
+  border: none;
+  background-color: blue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.contact {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.288), rgba(0, 0, 0, 0.384)) , url(https://files.porsche.com/filestore/image/multimedia/none/rd-2019-homepage-banner-ww-taycan4s-kw45/normal/495b433d-fa62-11e9-80c6-005056bbdc38/porsche-normal.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-size: 20px;
+}
+.scrollTop {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  font-size: 55px;
+  border-radius: 50%;
+  padding: 20px;
+  color: white;
+  background-color: rgba(0, 0, 255, 0.444);
+  display: none;
+ 
+}
