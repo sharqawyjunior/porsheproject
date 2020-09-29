@@ -1,0 +1,110 @@
+@media (max-width: 300px) {
+    .fnc-slide__heading  {
+        transform: scale(1.3);
+        margin-left: -10vw;
+    }.fnc-slide__action-btn {
+        position: relative;
+        margin-left: 0% ;
+        padding: 5px 15px;
+        font-size: 20px;
+        line-height: 1;
+        color: transparent;
+        border: none;
+        text-transform: uppercase;
+        background: transparent;
+        cursor: pointer;
+        text-align: center;
+        outline: none;
+        margin-top: 10%;
+      }
+      .fnc-slide-btn__car {
+        margin-left: 0%;
+        margin-top: 10%;
+        border: 2px solid white;
+        border-right: none;
+        border-left: none;
+        font-size: 18px;
+        font-family:  sans-serif;
+        background-image: linear-gradient(to right, white, rgba(0, 0, 139, 0.37));
+      }
+      .scrollTop {
+          transform: scale(0.5);
+      }
+}
+@media (min-width: 300.1px) and (max-width: 500px) {
+    .fnc-slide__heading  {
+        transform: scale(2);
+        margin-left: -12vw;
+    }
+    .fnc-slide__action-btn {
+        position: relative;
+        margin-left: 0% ;
+        padding: 5px 15px;
+        font-size: 20px;
+        line-height: 1;
+        color: transparent;
+        border: none;
+        text-transform: uppercase;
+        background: transparent;
+        cursor: pointer;
+        text-align: center;
+        outline: none;
+        margin-top: 10%;
+      }
+      .fnc-slide-btn__car {
+        margin-left: 0%;
+        margin-top: 10%;
+        border: 2px solid white;
+        border-right: none;
+        border-left: none;
+        font-size: 18px;
+        font-family:  sans-serif;
+        background-image: linear-gradient(to right, white, rgba(0, 0, 139, 0.37));
+      }
+      .scrollTop {
+        transform: scale(0.8);
+    }
+}
+@media (min-width: 500.1px) and (max-width: 600px) {
+    .fnc-slide__heading  {
+        transform: scale(2.5);
+        margin-left: 0vw;
+    }
+        .fnc-slide-btn__car {
+            margin-left: 10%;
+            margin-top: 10%;
+            border: 2px solid white;
+            border-right: none;
+            border-left: none;
+            font-size: 18px;
+            font-family:  sans-serif;
+            background-image: linear-gradient(to right, white, rgba(0, 0, 139, 0.37));
+        }
+        .scrollTop {
+            transform: scale(0.8);
+        }
+}
+@media (min-width: 600.1px) and (max-width: 710px) {
+    .fnc-slide__heading  {
+        transform: scale(2.8);
+        margin-left: 0vw;
+    }
+    .fnc-slide-btn__car {
+        margin-left: 20%;
+        margin-top: 10%;
+        border: 2px solid white;
+        border-right: none;
+        border-left: none;
+        font-size: 18px;
+        font-family:  sans-serif;
+        background-image: linear-gradient(to right, white, rgba(0, 0, 139, 0.37));
+      }
+ }
+
+ @media  (max-height: 500px) and (min-width: 1150.1px)  {
+    .fnc-slide-btn__car {
+        margin-top: -20%;
+        margin-left: -30%;
+       
+    }
+}
